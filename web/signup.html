@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Registrarse</title>
+  </head>
+  <body>
+    <main class="login-body">
+      <header>
+        <h1 class="title">Crear cuenta</h1>
+        <p class="subtitle">
+          ¿Ya estás registrado?
+          <a href="login.html">Inicia sesión aquí</a>
+        </p>
+      </header>
+
+      <form>
+        <label for="nombre">NOMBRE</label>
+        <input type="text" id="nombre" name="nombre" class="input-field" required />
+
+        <label for="email">EMAIL</label>
+        <input type="text" id="email" name="email" class="input-field" required />
+
+        <label for="password">CONTRASEÑA</label>
+        <input type="password" id="password" name="password" class="input-field" required />
+
+        <button type="submit" class="login-button">REGÍSTRATE</button>
+      </form>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

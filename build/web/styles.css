@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+div {
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+p {
+  color: #4942ce;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 2.3rem;
+}
+
+p {
+  font-family: "DM Sans";
+}
+
+.container {
+  display: flex;
+}
+
+.logo-container {
+  background-color: #fff;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.buttons-container {
+  background-color: #22263e;
+  height: 100vh;
+  border-radius: 2em 0 0 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-border-radius: 2em 0 0 2em;
+  -moz-border-radius: 2em 0 0 2em;
+  -ms-border-radius: 2em 0 0 2em;
+  -o-border-radius: 2em 0 0 2em;
+  padding: 2rem;
+}
+
+img {
+  width: 20%;
+  min-width: 7rem;
+  
+}
+
+button {
+  font-family: "Poppins";
+  width: 60%;
+  height: 3.5rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  font-size: 1em;
+  min-width: 10rem
+}
+
+.login-button {
+  background: #4942ce;
+  color: white;
+  border: 0;
+}
+
+.login-button:hover {
+  background: #5751d2;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.signup-button {
+  background: #22263e;
+  border: 0.2rem solid #4942ce;
+  color: white;
+}
+
+.signup-button:hover {
+  background: #33374d;
+  border: 0.2rem solid #4942ce;
+  color: white;
+  cursor: pointer;
+}
+
+.subtitle {
+  color: #969696;
+  font-size: 0.9em;
+}
+
+h2 {
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+a {
+  color: #428cff;
+  font-size: inherit;
+}
+
+/* página signup */
+.login-body {
+    background-color: #22263e;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+}
+
+.title {
+    color: #fff;
+    font-weight: 500;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+}
+
+form {
+    margin: 2rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+form button {
+    width: 100%;
+    height: 3rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    border: 0;
+    background-color: #4b4e5c;
+    height: 3em;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    padding: 1em;
+
+}
+
+label {
+    font-size: 0.8rem;
+    text-align: left;
+    width: 100%;
+}
+
+/* HOMEPAGE */
+.homepage-body {
+    background-color: #22263e;
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homepage-body h1 {
+    text-align: left;
+    font-size: 2em;
+}
+
+.homepage-body p {
+    text-align: left;
+    font-size: 1.2em;
+    color: #969696;
+}
+
+.list-container {
+    height: 80%;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+
+footer {
+    background-color: #22263e;
+    display: flex;
+    justify-content: end;
+    padding: 0 1em 1em 0;
+}
+
+footer img {
+    width: 20px;
+}
+
+.menu {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+i {
+    color: #fff;
+}
+
+.username {
+    color:#fff !important;
+}
+
+
+
