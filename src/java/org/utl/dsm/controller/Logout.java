@@ -22,5 +22,9 @@ public class Logout {
             stmt.execute();
         }
     }
+
+    public void logout(String email) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
             
 }

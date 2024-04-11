@@ -14,11 +14,11 @@ import org.utl.dsm.model.Usuario;
 public class RESTLogout {
     @Produces(MediaType.APPLICATION_JSON)
     @POST
-    public Response logout(int id) throws SQLException{
+    public Response logout(String email) throws SQLException{
         Logout logout = new Logout();
         String out = "0";
         try{
-            logout.logout(id);
+            logout.logout(email);
             out = "1";
             System.out.println(out);
         } catch (Exception e) {
