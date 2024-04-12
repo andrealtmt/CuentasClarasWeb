@@ -30,7 +30,7 @@ public class RESTLogin {
             user = loginController.log(usuario);
             return Response.status(Response.Status.OK).entity(user).build();
         } catch (Exception e) {
-            return Response.status(Response.Status.OK).entity("Error en la autenticación").build();
+            return Response.status(Response.Status.BAD_REQUEST).entity("Error en la autenticación").build();
         }
     }
     @Produces(MediaType.APPLICATION_JSON)

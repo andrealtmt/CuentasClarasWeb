@@ -10,22 +10,23 @@
   </head>
   <body>
     <main class="homepage-body">
-      <div class="menu">        
+      <div class="menu">
         <i class="fa-solid fa-user"></i>
-        &nbsp;&nbsp;<p class="username">ddsdj,sd</p>
+        &nbsp;&nbsp;
+        <p class="username" id="user-name"></p>
+        <!-- Aquí se mostrará el nombre del usuario -->
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa-solid fa-right-to-bracket"></i>
+        <a href="#" onclick="logout(event)"><i class="fa fa-sign-out"></i></a>
       </div>
       <header>
-        <h1 class="title">Bienvenido, C.P.</h1>
+        <h1 class="title" id="welcome-message">Bienvenido, C.P.&nbsp;</h1>
+        <!-- Aquí se mostrará el mensaje de bienvenida -->
         <p>Aquí podrás ver las prefacturas de tus clientes</p>
       </header>
 
-      <div class="list-container">
-
-      </div>
+      <div class="list-container"></div>
     </main>
 
-    <script src="/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

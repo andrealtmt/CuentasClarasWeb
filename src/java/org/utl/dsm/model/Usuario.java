@@ -6,7 +6,7 @@ public class Usuario {
     private String password;
     private String lastToken;
     private String nombre;
-    private int tipo = 1;
+    private int tipo;
     public Usuario() {
     }
 

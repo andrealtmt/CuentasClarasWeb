@@ -153,6 +153,7 @@ public class ControllerLogin {
         user.setEmail(rs.getString("email"));
         user.setPassword(rs.getString("password"));
         user.setNombre(rs.getString("nombre"));
+        user.setTipo(rs.getInt("tipo"));
         return user;
     }
 }

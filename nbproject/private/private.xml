@@ -3,12 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/web/signup.html</file>
-            <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/web/main.js</file>
-            <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/src/java/org/utl/dsm/controller/Logout.java</file>
-            <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/src/java/org/utl/dsm/rest/RESTLogout.java</file>
-            <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/web/WEB-INF/web.xml</file>
             <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/web/login.html</file>
+            <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/web/signup.html</file>
+            <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/web/homepage.html</file>
+            <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/src/java/org/utl/dsm/controller/ControllerLogin.java</file>
+            <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/src/java/org/utl/dsm/rest/RESTLogin.java</file>
+            <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/web/index.html</file>
+            <file>file:/C:/Users/Andrea%20Ro/OneDrive%20-%20Universidad%20Tecnológica%20de%20León/8vo%20cuatrimeste/integradora/3er%20parcial/CuentasClaras/web/main.js</file>
         </group>
     </open-files>
 </project-private>
